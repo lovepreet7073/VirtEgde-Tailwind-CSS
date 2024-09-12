@@ -2,12 +2,12 @@ import React from 'react'
 import { features } from '../constants'
 const FeatureSection = () => {
     return (
-        <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+        <div className="features relative mt-20 border-b border-neutral-800 min-h-[800px]">
           <div className="text-center">
             <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
               Feature
             </span>
-            <h4 className="text-3xl sm:text-5xl lg:text-5xl mt-10 lg:mt-20 tracking-wide">
+            <h4 className=" hero title  text-3xl sm:text-5xl lg:text-5xl mt-10 lg:mt-20 tracking-wide">
             Unlock  {" "}
               <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
               Potential
